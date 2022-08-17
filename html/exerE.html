@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <script src="./exerE.js" defer></script>
+    <title>Equação</title>
+</head>
+<body>
+
+    <main>
+        <h1 class="titulo">Equação do segundo grau</h1>
+        <form id="form-numsE" >
+            <div class="input">
+                    <label>Primeira variável</label>
+                    <input class="campo" type="number" id="variA" step="any" required />
+            </div>
+
+            <div class="input">
+                    <label>Segunda variável</label>
+                    <input class="campo" type="number" id="variB" step="any" required />
+            </div>
+            <div class="input">
+                <label>Terceira variável</label>
+                <input class="campo" type="number" id="variC" step="any" required />
+            </div>
+        </form>
+        <button id="calculo" class="button">Calculo</button>
+        <div class="result" id="resultE"></div>
+    </main>
+   
+</body>
+</html>
